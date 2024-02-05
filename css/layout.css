@@ -1,0 +1,55 @@
+/*ทำทั้งเอกสารใส่boxให้มัน*/
+*{ 
+    box-sizing: border-box;
+}
+
+body{
+
+font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    background-color: aquamarine;
+    padding: 30px;
+    text-align: center;
+    font-size: 35px;
+    color: rgb(9, 9, 208);
+}
+
+nav{
+float: left;
+width: 30%;
+้้height: 700px;
+background-color: antiquewhite;
+
+}
+
+nav ul{
+    list-style-type: none;
+    padding: 0;
+
+}
+
+article{
+    float: left;
+    padding: 20px;
+    width: 70%;
+    background-color: bisque;
+    height: 700px;
+    text-align: justify;
+
+}
+
+footer{
+    background-color: blanchedalmond;
+    padding: 10px;
+    text-align: center;
+    color: antiquewhite;
+
+}
+@media{max-width: 600px;
+nav,article{
+    width: 100%;
+    height: auto;
+}
+}
